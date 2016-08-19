@@ -25,7 +25,10 @@ def submitImage():
     image.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
     img = Image.open(os.path.join(app.config['UPLOAD_FOLDER'], filename))
     text = pytesseract.image_to_string(img)
-    return render_template('textFile.html',text=text)
+    f = open(os.path.join(app.config['UPLOAD_FOLDER'], filename)+'.txt','w')
+    f.write(text)
+    f.close()
+    return render_template('textFile.html',text=text,filename=f)
 
 
 if __name__ == '__main__':

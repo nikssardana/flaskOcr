@@ -10,21 +10,24 @@
         <div class='container-fluid'>
             <div class="row">
                 <div class='col-xs-12'>
-                    <textarea readonly name="result" rows="8" cols='180'>
-                        {{ text }}
-                    </textarea>
+                        
+                    
+                    <textarea id='textValue' readonly name="result" rows="8" cols='250' value=''>{{ text }}</textarea>
                 </div>
             </div>
         </div>
+                    <form method="get" accept-charset="utf-8">
+                        <button type="button" class='btn btn-info' onclick='downloadText()'>Download</button>
+                    </form>
 
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript" charset="utf-8">
-function showImage(event){
-    uploadedImage = document.getElementById('ocrImage').files[0];
-    console.log(uploadedImage);
-    document.getElementById('uploadedImage').src = URL.createObjectURL(event.target.files[0]);
+function downloadText(){
+    var text = document.getElementById('textValue').value;
+    var val = "data:x-application/text," + escape(text);
+    window.open(val);
 }
 
     </script>

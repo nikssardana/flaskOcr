@@ -1,0 +1,22 @@
+Documentation
+
+Amlt edited Ihls page on 4 Jul 9 revisions
+
+Technical papers describing various aspects of
+Tesseract
+
+Copyright Notice
+
+Material posted here is copyrighted and may not be sold or distributed without permission of
+the respective copyright holder.
+
+Reading the Papers
+
+The links below take you to PDF download.
+
+IEEE Copyright Materials
+
+The following materials appeared in IEEE publications, and each carries an IEEE copyright
+
+designation. Papers may not be sold or distributed further without written permission of the
+IEEE.
