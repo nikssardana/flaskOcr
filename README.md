@@ -16,3 +16,9 @@ sudo pip install pytesseract
 ![alt tag](https://github.com/nikssardana/flaskOcr/blob/master/ocr2.png)
 
 ![alt tag](https://github.com/nikssardana/flaskOcr/blob/master/ocr3.png)
+
+## Running the Application
+Download the project, browse to the project folder in your terminal and run
+```
+python app.py
+'''
