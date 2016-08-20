@@ -17,7 +17,7 @@ Python Imaging Library (PIL)
 ```
 sudo pip install pillow
 ```
-Flask:
+Flask
 ```
 sudo pip install flask
 ```
