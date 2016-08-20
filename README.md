@@ -13,11 +13,11 @@ Pytesseract
 ```
 sudo pip install pytesseract
 ```
-Python Imaging Library (PIL):
+Python Imaging Library (PIL)
 ```
 sudo pip install pillow
 ```
-Install flask:
+Flask:
 ```
 sudo pip install flask
 ```
