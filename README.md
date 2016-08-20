@@ -4,6 +4,10 @@ Flask project to convert image to text
 This project uses pytesseract to convert an image to text.
 
 ## Prerequisites
+Tesseract
+```
+sudo apt-get install tesseract-ocr
+```
 
 Pytesseract
 ```
