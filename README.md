@@ -31,3 +31,7 @@ Download the project, browse to the project folder in your terminal and run
 ```
 python app.py
 ```
+Open your browser and browse to the following address:
+```
+http://localhost:8000/
+```
